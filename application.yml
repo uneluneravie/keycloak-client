@@ -1,0 +1,6 @@
+keycloak:
+  client:
+  url: ${KEYCLOAK_URL:http://34.205.234.255:8887}
+  realm: ${KEYCLOAK_REALM:DX-realm}
+  clientId: ${KEYCLOAK_CLIENT:dx-backend}
+  clientSecret: ${KEYCLOAK_SECRET:16542f7e-0e3f-46f2-a1cd-a8f7d3da3f06}
